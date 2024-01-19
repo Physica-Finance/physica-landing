@@ -18,7 +18,7 @@ function Page() {
   const cardsData = [
     {
       borderColor: 'border-purple-600',
-      other: '',
+      other: ' ',
       isBorder: true,
       img: './3d-icons/icon-1.png',
       title: 'Trade',
