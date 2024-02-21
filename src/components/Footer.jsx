@@ -117,12 +117,11 @@ const Footer = () => {
             <aside className="items-center max-w-xs grid-flow-col">
               <div className="flex flex-col">
                 <div>
-                  <img src="./favicon.svg" width={50} height={50} alt="" />
-                  <p className="text-xl font-semibold">Planq Network</p>
+                  <img src="./logo.png" width={50} height={50} alt="" />
+                  <p className="text-xl font-semibold">Physica Finance</p>
                 </div>
                 <p className="py-2 text-sm font-medium text-blue-900/90 dark:text-gray-400">
-                  Planq network opens up the full blockchain potential of your
-                  phone with easy accessibility.
+                  Swap, earn, and build on the leading decentralized crypto trading protocol on Planq.
                 </p>
               </div>
             </aside>
@@ -134,9 +133,9 @@ const Footer = () => {
           <div className="footer">
             <aside className="items-center grid-flow-col">
               <p>
-                POWERED BY PLANQ® NETWORK <br />
+                Powered by <a href="https://planq.network">Planq.Network</a> <br />
                 <span className="text-sm text-blue-900/80 dark:text-gray-400">
-                  Copyright ® 2023, Planq Dev B. V.
+                  Copyright ® 2023, Physica Finance
                 </span>
               </p>
             </aside>

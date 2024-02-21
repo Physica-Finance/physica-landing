@@ -51,7 +51,7 @@ function Page() {
       component: (
         <Button
           btnType="px-8"
-          url="https://bridge.portal.physica.finance"
+          url="https://swap.deltaswap.io"
           other="bg-violet-400 border-0 hover:bg-violet-600"
         >
           <Text className="font-semibold text-white dark:text-neutral">

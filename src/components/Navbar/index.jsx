@@ -62,7 +62,7 @@ const Navbar = () => {
     },
   ];
 
-  let logoPath = theme === 'dark' ? './logo-white.svg' : './logo-dark.svg';
+  let logoPath = './logo.png';
 
   const handleToggle = (e) => {
     if (e.target.checked) {

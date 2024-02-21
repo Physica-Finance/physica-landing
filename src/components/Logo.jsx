@@ -6,7 +6,7 @@ const Logo = (props) => {
   return (
     <Link to={url}>
       <a className="flex items-center">
-        <img src={`${srcLogo}`} className="h-7 h-lg-8" alt="PlanQ Network" />
+          <img src={`${srcLogo}`} className="h-9 h-lg-9" alt="Physica Finance" /> <span class="pl-2">Physica Finance</span>
       </a>
     </Link>
   );

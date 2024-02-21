@@ -9,14 +9,14 @@ import { Link } from 'react-router-dom';
 const CustomCarousel = () => {
   const slidesData = [
     {
-      url: 'https://play.google.com/store/apps/details?id=network.planq.castrum',
+      url: 'https://www.yieldmos.com/',
       btn: 'dApps',
       description:
         'Yieldmos enables you to boost yields through automated compounding.',
       imagePath: './carousel/yieldmos-logo.svg',
     },
     {
-      url: 'https://play.google.com/store/apps/details?id=network.planq.castrum',
+      url: 'https://deltaswap.io',
       btn: 'dApps',
       description:
         'Unified cross-chain interface, average transaction speed within 100 secs, no-slippage swap.',
