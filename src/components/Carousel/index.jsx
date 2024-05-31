@@ -9,13 +9,6 @@ import { Link } from 'react-router-dom';
 const CustomCarousel = () => {
   const slidesData = [
     {
-      url: 'https://www.yieldmos.com/',
-      btn: 'dApps',
-      description:
-        'Yieldmos enables you to boost yields through automated compounding.',
-      imagePath: './carousel/yieldmos-logo.svg',
-    },
-    {
       url: 'https://deltaswap.io',
       btn: 'dApps',
       description:
@@ -30,10 +23,10 @@ const CustomCarousel = () => {
       imagePath: './carousel/castrum.svg',
     },
     {
-      url: 'https://explorer.planq.network/',
+      url: 'https://evm.planq.network/',
       btn: 'dApps',
-      description: 'Planq Block Explorer',
-      imagePath: './carousel/big-dipper.svg',
+      description: 'Planq EVM Explorer',
+      imagePath: './carousel/blockscout_logo.svg',
     },
   ];
   return (

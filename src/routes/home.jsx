@@ -25,7 +25,7 @@ function Page() {
       classCard: 'z-10 lg:z-0',
       spaceY: 'space-y-3',
       titleClass: 'title-trade text-4xl justify-center',
-      subtitle: 'Trade crypto instantly across multiple chains',
+      subtitle: 'Trade crypto instantly, with low fees.',
       component: (
         <Button
           btnType="px-8"
@@ -47,7 +47,7 @@ function Page() {
       titleClass: 'text-violet-400 text-4xl justify-center',
       title: 'Bridge',
       classCard: 'z-10',
-      subtitle: 'Seamlessly transfer assets across chains',
+      subtitle: 'Seamlessly transfer assets to and from the Planq blockchain.',
       component: (
         <Button
           btnType="px-8"
@@ -69,7 +69,7 @@ function Page() {
       titleClass: 'title-earn text-4xl justify-center',
       title: 'Earn',
       classCard: 'z-10 lg:z-0',
-      subtitle: 'Provide liquidity to pools on Planq and earn fees on swaps',
+      subtitle: 'Provide liquidity to pools on Physica, and earn fees on swaps.',
       component: (
         <Button
           btnType="px-8"
@@ -195,15 +195,14 @@ function Page() {
           <CoinAnimation />
           <div className="flex flex-col items-center justify-center w-screen space-y-4 text-center bg-transparent">
             <h1 className="z-10 max-w-xl text-5xl font-semibold leading-normal text-blue-900 dark:text-neutral">
-              Join Physica Finance, Buy $PLQ!
+              Unlock the full potential of DeFi with Planq
             </h1>
             <p className="z-10 max-w-lg pb-10 text-lg text-neutral">
-              Become an early user of Physica Finance and unlock the full
-              potential of DeFi
+              Become an early adopter of Physica finance, get your $PLQ tokens here.
             </p>
             <div className="flex items-center justify-between gap-4">
               <Button
-                url="/"
+                url="https://bingx.com/en/spot/PLQUSDT/"
                 target="_blank"
                 other={`animate-bounce btn-sm px-5 h-14 inline-flex justify-center items-center gap-4 flex-shrink-0 bg-white dark:bg-white hover:bg-white hover:shadow-blue-500 hover:shadow-lg hover:text-primary shadow shadow-blue-800 dark:shadow-white border-0`}
               >
@@ -215,7 +214,7 @@ function Page() {
                 </span>
               </Button>
               <Button
-                url="/"
+                url="https://app.osmosis.zone/?to=PLQ&from=USDC"
                 target="_blank"
                 other={`animate-bounce btn-sm px-5 h-14 inline-flex justify-center items-center gap-4 flex-shrink-0 bg-purple-400 dark:bg-purple-500 hover:bg-purple-400 hover:shadow-purple-400 hover:shadow-lg hover:text-primary shadow shadow-purple-800 dark:shadow-purple-500 border-0`}
               >

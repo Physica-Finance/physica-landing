@@ -22,7 +22,7 @@ const Footer = () => {
       name: 'Staking',
     },
     {
-      url: 'https://planq.network/whitepaper',
+      url: 'https://docs.planq.network/planq-chain-protocol/whitepaper',
       name: 'Tokenomics',
     },
   ];
@@ -44,7 +44,7 @@ const Footer = () => {
 
   const supports = [
     {
-      url: 'https://discord.gg/vcGKPUNjNF',
+      url: 'https://discord.com/invite/planq-network',
       name: 'Contact',
     },
     {
@@ -52,7 +52,7 @@ const Footer = () => {
       name: 'Documentation',
     },
     {
-      url: 'https://discord.gg/vcGKPUNjNF',
+      url: 'https://discord.com/invite/planq-network',
       name: 'Troubleshooting',
     },
   ];
@@ -127,7 +127,7 @@ const Footer = () => {
             </aside>
             {renderLinks('Ecosystem', ecosystem)}
             {renderLinks('Developers', developers)}
-            {renderLinks('Supports', supports)}
+            {renderLinks('Support', supports)}
             {renderLinks('About', about)}
           </div>
           <div className="footer">
